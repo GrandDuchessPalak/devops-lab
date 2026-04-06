@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3
 WORKDIR /app
 COPY . .
-CMD ["python", "exp26.py"]
+CMD ["python", "app.py"]
